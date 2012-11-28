@@ -27,9 +27,9 @@ General overview
 The steps to replicate this work are (roughly) as follows:
 
 #. Create GIT repo::
-       git init django-appname
+   	git init django-appname
 #. Create Django app and add to repo::
-       django-admin.py startapp appname
+   	django-admin.py startapp appname
 #. Add `setup.py`, see
    `Building and Distributing Packages with Distribute <http://packages.python.org/distribute/setuptools.html>`_
 #. Add `django-setuptest <https://github.com/praekelt/django-setuptest>`_ to
