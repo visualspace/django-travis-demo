@@ -18,6 +18,7 @@ to manually merge changes to `setup.py` in::
 	git fetch https://github.com/visualspace/django-travis-demo.git
 	git cherry-pick 0333f23014dbd5ada22d4cacc079331d889afa29
 	git cherry-pick 7e96de8e8cd60351c736ee884a5a3b748eb59547
+	git cherry-pick f31b9a1dc02a50a99947aea2ee3758235af03b96
 
 After this, check and edit `setup.py` and `test_settings.py`, enable Travis
 for the package, push and you *should* see your tests being run.
